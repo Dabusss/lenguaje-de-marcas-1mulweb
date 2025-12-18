@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Ringbearer;
+    src: url(Fuentes/Ringbearer.TTF);
+}
+@font-face {
+    font-family: Tolkien;
+    src: url(Fuentes/tolkien.ttf);
+}
+@font-face {
+    font-family: Hobbiton;
+    src: url(Fuentes/hobbiton.ttf);
+}
+@font-face {
+    font-family: Aniron;
+    src: url(Fuentes/Aniron.ttf);
+}
+@keyframes slideToRight {
+    0%{
+        tranform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(100px);
+    }
+}
+p{
+    word-spacing: 1.5px;
+    color:rgb(255, 255, 255);
+    font-family: Segoe Print, sans-serif;
+    font-size: 0.9em;
+}
+h1{
+    font-family: Ringbearer;
+    color: rgb(170, 129, 25);
+    text-shadow: 5px 5px 10px black;
+    font-size: 5em
+}
+body{
+    background-color: black;
+}
+.hobbit{
+    font-family:Aniron;
+    color:rgb(147, 248, 255)
+}
+.hobbit:hover{
+    color:red;
+    transition: color 5s ease-in-out;
+    font-family: Aniron;
+}
+.cabecera{
+    background-color:rgb(83, 83, 83);
+    position: relative;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:auto;
+}
+.licencia{
+    font-family: sans-serif;
+    color:red;
+    text-align: center;
+}
+.libro{
+    border: 3px rgb(255, 255, 255);
+    border-style: solid;
+    margin: 1em;
+    box-shadow: 5px 5px 10px lightgreen;
+    float: right;
+    height: 317px;
+    padding: 5px;
+    background-color: white;
+}
+img:hover{
+    box-shadow: 0 0 40px 10px yellow;
+
+}

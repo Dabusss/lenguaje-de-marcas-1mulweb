@@ -1,0 +1,32 @@
+
+.autores{
+    color: dodgerblue;
+}
+.isaac{
+    color: dodgerblue;
+    text-decoration: underline;
+}
+.titulos{
+    color: darkred;
+}
+h1{
+    color:dodgerblue;
+    font-family: Tahoma;
+    font-size: 15px;
+    text-align: justify;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right:40px;
+}
+p{
+    text-align: justify;
+    font-size: 15px;
+    position: relative;
+    margin-left: 40px;
+    margin-top:20px;
+    margin-right: 40px;
+}
+b{
+    font-size: 15px;
+}

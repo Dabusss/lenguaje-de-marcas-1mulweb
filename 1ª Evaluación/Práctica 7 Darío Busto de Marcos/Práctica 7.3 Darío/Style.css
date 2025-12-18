@@ -1,0 +1,35 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: darkred;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+table{
+    border: 1px double black;
+    margin: auto;
+}
+td{
+    width: 100px;
+    align-content: center;
+    border-bottom: 1px solid lightslategray;
+    border-right: 1px solid lightslategray;
+    border-top: 1px solid rgb(56, 56, 56);
+    border-left: 1px solid rgb(56, 56, 56);
+    text-align: center;
+    background-color: rgb(157, 225, 252);
+
+}
+.gris{
+    background-color: rgb(163, 160, 160);
+}
+.blanco{
+    background-color: white;
+}
+.resaltado{
+    font-weight: bold;
+}
+.bandera{
+    width:40px;
+}

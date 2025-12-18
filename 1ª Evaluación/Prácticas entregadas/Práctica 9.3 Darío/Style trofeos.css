@@ -1,0 +1,51 @@
+table{
+    border: 2px black;
+    border-style: double;
+    margin: auto;
+}
+h1{
+    color:darkred;
+    position: relative;
+    margin-bottom:10px;
+    text-align: center;
+}
+.cabezal{
+    background-color:darkturquoise;
+    color:blue;
+    font-weight: bold;
+
+}
+.tenista:hover{
+    color:blue;
+}
+.gris{
+    background-color: darkgrey;
+}
+.blanco{
+    background-color: white;
+}
+.bandera{
+    height:30px;
+}
+.contenedorBandera{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.banderaEsp{
+    height:43px;
+}
+p{
+    text-align: center;
+    position:relative;
+    margin-top:2px;
+}
+h1{
+    text-align: center;
+    color:darkred;
+}
+td{
+    border: 2px solid black;
+    padding: 2px;
+    text-align: center;
+}

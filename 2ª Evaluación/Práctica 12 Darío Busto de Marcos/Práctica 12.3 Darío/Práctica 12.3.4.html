@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Práctica 12.3.2</title>
+    <script>
+        function enfocado(objeto,color) {
+            objeto.style.backgroundColor = color;
+        }
+        function desenfocado(objeto) {
+            objeto.style.backgroundColor = "inherit";
+        }
+        function alerta(){
+            alert('Se van a borrar los datos');
+        }
+    </script>
+</head>
+
+<body onload="JavaScript:alert('La página se ha cargado')">
+    <form onreset="JavaScript:alerta();">
+    <h1>Bienvenido</h1>
+    Nombre: <input type="text" id="nombre" onfocus="JavaScript:enfocado(this,'yellow');" onblur="JavaScript:desenfocado(this);"> <br>
+    <br>Observaciones: <input type="text" id="observaciones" onfocus="JavaScript:enfocado(this,'red');" onblur="JavaScript:desenfocado(this);">
+    <br> <input type="reset" value="Reiniciar" >
+    </form>
+</html>

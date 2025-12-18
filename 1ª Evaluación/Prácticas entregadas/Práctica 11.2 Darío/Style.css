@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Ringbearer;
+    src: url(Fuentes/Ringbearer.ttf);
+}
+@font-face {
+    font-family: Tolkien;
+    src: url(Fuentes/tolkien.ttf);
+}
+@font-face {
+    font-family: Hobbiton;
+    src: url(Fuentes/hobbiton.ttf);
+}
+@keyframes slideToRight {
+    0%{
+        tranform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(100px);
+    }
+}
+p{
+    word-spacing: 1.5px;
+    color:blue;
+    font-family: Segoe Print, sans-serif;
+    font-size: 0.9em;
+}
+h1{
+font-family: Ringbearer;
+color: rgb(170, 129, 25);
+}
+.hobbit{
+    font-family:Hobbiton;
+    color:darkblue
+}
+.licencia{
+    font-family: sans-serif;
+    color:red;
+    text-align: center;
+}
+.autor{
+    text-decoration: underline;
+}
+.autor:hover{
+    border:2px solid black;
+    background-color: yellow;;
+}
+.hobbit:hover{
+    color:red;
+    transition: color 5s ease-in-out;
+    font-family: Hobbiton;
+}
+.cabecera{
+    background-color:rgb(83, 83, 83);
+    position: relative;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cabeceraInt{
+    background-color:rgb(156, 156, 156);
+    border-radius: 25px;
+    position:absolute;
+    box-shadow: 0px 0px 25px yellow;
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+    transition:transform 0,5s ease-in-out forwards;
+}
+.cabeceraInt:hover{
+    animation: slideToRight 5s 3 ease-in-out forwards;
+}
+.libro{
+    border: 3px green;
+    border-style: solid;
+    margin: 1em;
+    box-shadow: 5px 5px 10px lightgreen;
+    float: left;
+    height: 317px;
+    padding: 5px;
+}

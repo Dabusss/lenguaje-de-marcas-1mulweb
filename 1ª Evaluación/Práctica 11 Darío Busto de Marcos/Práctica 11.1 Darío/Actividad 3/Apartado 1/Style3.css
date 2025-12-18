@@ -1,0 +1,15 @@
+body{
+    background-image: url('fondo.png');
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    background-color: rgb(85, 113, 146);
+    border-radius: 5px;
+    height: 80px;
+    width:130px;
+    color:white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}

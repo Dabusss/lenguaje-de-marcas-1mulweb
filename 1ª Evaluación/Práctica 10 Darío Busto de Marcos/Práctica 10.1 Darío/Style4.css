@@ -1,0 +1,11 @@
+h1{
+    text-align: left;
+    text-decoration: overline underline;
+    text-shadow: 2px 2px 5px red;
+}
+.primera{
+    text-decoration:underline;
+}
+.tachada{
+    text-decoration:line-through;
+}

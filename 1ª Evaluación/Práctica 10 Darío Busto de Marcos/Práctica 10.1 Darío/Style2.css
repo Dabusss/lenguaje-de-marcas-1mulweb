@@ -1,0 +1,13 @@
+h1{
+    font-variant-caps: small-caps;
+    text-align: left;
+}
+.p1-2{
+    font-weight:bold;
+}
+.p2-2{
+    font-style: italic;
+}
+.NoCursiva{
+    font-style:normal;
+}

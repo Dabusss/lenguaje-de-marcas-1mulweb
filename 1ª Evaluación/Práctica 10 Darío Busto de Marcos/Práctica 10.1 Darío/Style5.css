@@ -1,0 +1,23 @@
+h1{
+    text-align: left;
+    background-image: url(ArchivosEjercicio/fondo.png);
+    background-repeat:repeat;
+    color:black;
+    cursor: pointer;
+}
+body{
+    background-image:url(ArchivosEjercicio/Vicente_Blasco_Ibanez.jpg);
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y: center;
+}
+.p1-5{
+    color: rgb(0, 0, 255);
+}
+.p2-5{
+    color: rgb(0, 0, 255);
+    opacity: 0.5;
+}
+.fondoAmarillo{
+    background-color:yellow;
+}

@@ -1,0 +1,17 @@
+h1{
+    text-align: left;
+    letter-spacing: 10px;
+}
+.p1-3{
+    word-spacing: 10px;
+}
+.p2-3{
+    line-height:30px ;
+}
+.NoCursiva{
+    font-style:normal;
+}
+body{
+    text-indent:20px ;
+    text-align: justify;
+}

@@ -1,0 +1,52 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: darkred;
+    text-align: center;
+    font-size: 50px;
+    position:relative;
+    margin-top: 30px;
+}
+table{
+    border: 1px double black;
+    margin: auto;
+}
+td{
+    width: 150px;
+    align-content: center;
+    border-bottom: 1px solid lightslategray;
+    border-right: 1px solid lightslategray;
+    border-top: 1px solid rgb(56, 56, 56);
+    border-left: 1px solid rgb(56, 56, 56);
+    text-align: center;
+    background-color: brown;
+    color:whitesmoke;
+    font-size: 30px;
+    padding: 5px;
+
+}
+.gris{
+    background-color: rgb(163, 160, 160);
+    color:black
+}
+.blanco{
+    background-color: white;
+    color: black;
+}
+.resaltado{
+    font-weight: bold;
+}
+.bandera{
+    width:60px;
+}
+.numeros{
+    border-color: blue;
+    color: blue;
+    background-color: white;
+    font-size: 20px;
+}
+.capital{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color:black
+}

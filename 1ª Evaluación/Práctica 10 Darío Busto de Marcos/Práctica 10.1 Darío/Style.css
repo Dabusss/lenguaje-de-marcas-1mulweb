@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Bybsy;
+    src: url(Bybsy.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Comfortaa;
+    src: url(Comfortaa.ttf) format('truetype');
+    font-weight:normal;
+    font-style: normal;
+}
+h1{
+    font-family: 'Bybsy';
+    text-align: left;
+    font-weight:bold;
+    font-size: 3em;
+}
+.p1{
+    font-family: 'Comfortaa';
+    font-size: 1.1em;
+}
+.p2{
+    font-family: 'Comfortaa';
+    font-size: 0.9em;
+}

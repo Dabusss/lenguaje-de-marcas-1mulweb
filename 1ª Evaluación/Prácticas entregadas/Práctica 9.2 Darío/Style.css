@@ -1,0 +1,64 @@
+@font-face {
+        font-family: andalus;
+        src: url(andalus.ttf);
+}
+h2{
+    font-size: 44px;
+    color:darkred;
+    font-family: andalus;
+    position: relative;
+    text-align: center;
+}
+h1{
+    color:black;
+    font-family:'Times New Roman', Times, serif ;
+}
+.titulo{
+    border: 2px solid blue;
+    background-color: aqua;
+    width: 100%;;
+    position: relative;
+    margin: auto;
+    height: fit-content;
+    font-family: andalus;
+}
+.ExteriorColumnas{
+    display: flex;
+    column-gap: 20px;
+}
+.columna{
+    width: 100px;
+    flex: 1;
+    height: 50px;
+    justify-content: left;
+}
+
+b{
+    font-weight: bold;
+    font-family: andalus;
+}
+p{
+    font-style: italic;
+    color:blue;
+}
+sup{
+    font-size: 8px;
+}
+.isaac{
+    text-decoration:underline ;
+    font-size: 1em;
+    color: black;
+}
+.isaac:hover{
+    text-decoration: underline;
+    font-size: 1em;
+    color:darkred;
+}
+.autores{
+    color: black;
+}
+html{
+    background-color: rgb(150, 208, 223);
+    font-family: andalus;
+    color: blue;
+}

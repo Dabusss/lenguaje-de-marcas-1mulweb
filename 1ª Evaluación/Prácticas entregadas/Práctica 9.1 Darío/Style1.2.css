@@ -1,0 +1,38 @@
+
+.autores{
+    color: rgb(98, 230, 96);
+}
+.isaac{
+    color: rgb(98, 230, 96);
+    text-decoration: underline;
+    font-variant: small-caps;
+}
+.titulos{
+    color: darkred;
+}
+h1{
+    color:dodgerblue;
+    font-family: Tahoma;
+    font-size: 15px;
+    text-align: justify;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right:40px;
+}
+p{
+    text-align: justify;
+    font-size: 15px;
+    position: relative;
+    margin-left: 40px;
+    margin-top:20px;
+    margin-right: 40px;
+    line-height: 20px;
+}
+b{
+    font-size: 15px;
+    background-color:yellow;
+}
+sup{
+    font-size: 8px;
+}

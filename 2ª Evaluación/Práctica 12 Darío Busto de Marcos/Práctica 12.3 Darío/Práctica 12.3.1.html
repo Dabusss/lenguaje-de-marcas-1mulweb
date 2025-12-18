@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <title>Práctica 12.3.1</title>
+    <script>
+        function enfocado(id_objeto) {
+            document.getElementById(id_objeto).style.backgroundColor = "yellow";
+        }
+        function desenfocado(id_objeto) {
+            document.getElementById(id_objeto).style.backgroundColor = "inherit";
+        }
+    </script>
+</head>
+<body>
+    <h1>Bienvenido</h1>
+    Nombre: <input type="text" id="nombre" onfocus="JavaScript:enfocado(this.id);" onblur="JavaScript:desenfocado(this.id);"> <br>
+    <br>Observaciones: <input type="text">
+    
+    
+</body>
+</html>

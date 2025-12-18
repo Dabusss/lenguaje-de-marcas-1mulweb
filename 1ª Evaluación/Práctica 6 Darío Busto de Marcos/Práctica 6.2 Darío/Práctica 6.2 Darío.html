@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practica 6.2</title>
+    </head>
+    <head>
+        <style>
+            .estilo1 {
+                margin: 10px;
+                border: 2px solid red;
+                background-color: lightgray;
+                text-align: center;
+            }
+            .estilo2 {
+                margin: 10px;
+                background-color: lightgray;
+                text-align: left;
+            }
+            .estilo3 {
+                position: relative;
+                margin-left:150px;
+                margin-top:15px;
+                border:solid 2px greenyellow; 
+                width:fit-content;  
+            }
+            .estilo4 {
+                width:50%;
+                border:solid 2px blue;
+                height: fit-content;
+                text-align: left;
+            }
+            .estilo5 {
+                position: relative;
+                margin-right: 20px;
+                margin-left: 0px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                border: solid 2px fuchsia;
+            }
+            .estilo6 {
+                position: absolute;
+                background-color: lightgray;
+                bottom: 0;
+                right: 0;
+                border: solid 2px yellow;
+            }
+            .estilo7 {
+                background-color: lightgray;
+                text-align: left;
+                height: fit-content;
+                position: relative;
+                margin-left: 20px;       
+                margin-right: 20px;   
+            }
+            .estilo8 {
+                background-color: lightgray;
+                text-align: left;
+                height: fit-content;
+                position: relative;
+                margin-left: 20px; 
+                margin-right: 20px;
+            }
+            .estilo9 {
+                background-color: lightgray;
+                text-align: left;
+                height: fit-content;
+                position: relative;
+                margin-left: 20px; 
+                margin-right: 20px;
+            }
+            .estilo10 {
+                background-color: lightgray;
+                border: solid 2px gray;
+                position: relative;
+                height: 150px;
+                width: 300px;
+                bottom: 0%;
+                left: 40%;
+            }
+            .sticky{
+                position:-webkit-sticky;
+                position:sticky;
+                bottom: 0px;
+                width: 200px;
+                background-color: gray;
+                border: 2px solid black;
+                height:fit-content;
+                color:whitesmoke;
+            }
+            .estilo11{
+                border: 2px cyan solid;
+                position:fixed;
+                bottom: 0px;
+                right: 0px;
+            }
+            .texto{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+
+            }
+        </style>
+    </head>
+    <div class="estilo1">
+        <h1>Encabezado (Estatico, margen 10px)</h1>
+    </div>
+    <div class="estilo2">
+        <p>Parrafo <a href="https://www.netflix.com/es/">Enlace estatico</a> <a href="https://www.disneyplus.com/es-es?gclsrc=aw.ds&cid=DSS-Search-Google-9594647037-&s_kwcid=AL!8468!3!678934660033!e!!g!!104662293491-23866400&gad_source=1&gad_campaignid=9594647037&gbraid=0AAAAACzWEUHpfCFKXilH4oqNYoTfo8Zp3&gclid=CjwKCAjw3tzHBhBREiwAlMJoUn_1aCWQL7iJLld1b5mJRNjiqSso5GRp_u5jNZGEaMoFRngkRW5K8RoCb1gQAvD_BwE">Enlace estatico</a></p>
+    </div>
+    <div class="estilo3">
+        <a href="Enlace relativo.html">Enlace relativo separado 150px y 15px</a>
+    </div>
+    <div class="estilo4">
+        Div estatico 50% ancho de pagina
+    </div>
+    <div class="estilo4">
+        Div estatico 50% ancho de pagina
+    </div>
+    <div class="estilo5">
+        Div relativo. Se separa 20px en horizontal y vertical. Se separa 20px en horizontal y vertical. Se separa 20px en horizontal y vertical.Se separa 20px en horizontal y vertical.Se separa 20px en horizontal y vertical.Se separa 20px en horizontal y vertical. Div relativo. Se separa 20px en horizontal y vertical. Se separa 20px en horizontal y vertical.
+    
+        <div class=estilo6>
+            Div absoluto en la esquina inferior derecha del div relativo.
+        </div>
+    </div>
+    <div class="estilo7">
+        <p style="background-color: lightgrey;">Varios parrafos: Lorem ipsum dolor sit amet consectetur adipiscing, elit maecenas leo convallis hendrerit urna, porttitor vivamus elementum turpis a. Aliquam taciti sociis pretium vel risus gravida quam sodales natoque molestie mi placerat nascetur, lobortis interdum suscipit luctus orci fusce euismod augue per nullam neque malesuada. Senectus aliquet nam risus ullamcorper mauris praesent pharetra, pretium varius quam elementum enim sociis, nunc lacus augue phasellus gravida imperdiet.
+        Inceptos sociosqu enim quisque id risus netus quis a.</p>
+        
+    </div>
+    
+    <div class="estilo8">
+        <p>vestibulum semper eu erat laoreet sodales ullamcorper curabitur, mauris nec porttitor posuere interdum ridiculus morbi suscipit primis non, potenti mollis iaculis ligula purus phasellus et dignissim conubia facilisi. Curae etiam placerat taciti ut venenatis molestie leo parturient nibh natoque maecenas phasellus cras tellus, elementum hac malesuada accumsan magnis dapibus commodo proin est mus a mattis.</p>
+        
+    </div>
+    <div class="estilo9">
+        <p>congue donec facilisi per habitant litora, fermentum netus quisque euismod gravida aptent, primis sodales laoreet sociosqu magnis. Nunc pulvinar lacinia quisque mi aenean blandit, facilisis rhoncus fames curae eleifend, platea torquent ultricies habitasse. Lorwem ipsum dolor sit amet consectetur adipiscing, elit maecenas leo convallis hendrerit urna, porttitor vivamus elementum turpis a. Aliquam taciti sociis pretium vel risus gravida quam sodales natoque molestie mi placerat nascetur, lobortis interdum suscipit luctus orci fusce euismod augue per nullam neque malesuada. Senectus aliquet nam risus ullamcorper mauris praesent pharetra, pretium varius quam elementum enim sociis, nunc lacus augue phasellus gravida imperdiet.</p>
+    </div>
+    <div class="estilo10">
+        <div class="texto">
+        <p style="color: blue;">Div 300px centrado vertical y dcha</p>
+        </div>
+    </div>
+    <div class="sticky">
+        Div sticky 200px ancho
+    </div>
+    <div class="estilo11">
+        Div fijo. 100px
+        <br>
+        ancho
+    </div>
+</html>

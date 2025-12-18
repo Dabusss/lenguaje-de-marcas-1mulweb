@@ -1,0 +1,93 @@
+@font-face {
+        font-family: andalus;
+        src: url(andalus.ttf);
+        font-size: normal;
+        font-weight: normal;
+}
+@font-face {
+        font-family: vitor;
+        src: url(ArchivosEjercicio/vitor.ttf);
+        font-size:normal;
+        font-weight:normal;
+}
+body{
+    background-color:rgb(177, 225, 230);
+    background-image: url(ArchivosEjercicio/etching-small.jpg);
+    background-position-x: center;
+    background-position-y:center;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+b:hover{
+    font-weight: bold;
+    cursor:help;
+}
+.titulos{
+    text-transform: uppercase;
+    color: darkred;
+}
+.años{
+    text-decoration: line-through;
+}
+.cabecera{
+    margin-left:5px;
+    margin-right:5px;
+    border: 2px solid blue;
+    background-image:url(ArchivosEjercicio/fondo.png);
+    background-repeat: repeat;
+    text-align: center;
+    color: darkred;
+    text-shadow: 0.5px 0px 4px black;
+    font-family: andalus;
+    font-size: 1.3em;
+}
+.historia{
+    font-weight: 500;
+}
+p{
+    line-height: 1.5em;
+    color:blue;
+    font-style: italic;
+    text-indent: 2em;
+}
+.gugol1{
+    font-family: vitor;
+    
+}
+.gugol1:hover{
+    cursor:text;
+}
+.isaac{
+    text-decoration:underline ;
+    font-size: 1em;
+    color: black;
+}
+.isaac:hover{
+    text-decoration: underline;
+    font-size: 1em;
+    color:darkred;
+    cursor:none;
+}
+.autores{
+    color: black;
+}
+.autores:hover{
+    cursor:none;
+}
+.ExteriorColumnas{
+    display: flex;
+    column-gap: 20px;
+    background-color:rgb(90%, 100%, 100%);
+    background-color: #E5FFFF;
+}
+.columna{
+    width: 100px;
+    flex: 1;
+    justify-content: left;
+    opacity: 50%;
+}
+.textoColumna{
+    color:black;
+    text-align: left;
+    letter-spacing: 0.002em;
+}

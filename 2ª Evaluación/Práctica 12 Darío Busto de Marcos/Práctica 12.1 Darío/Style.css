@@ -1,0 +1,29 @@
+legend{
+    opacity: 50%;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.general{
+    position:relative;
+    height:200px;
+}
+.equipo{
+    position: absolute;
+    left: 1%;
+}
+.jugador{
+    position: absolute;
+    left: 33%;
+}
+.aficiones{
+    position: absolute;
+    left: 66%;
+}
+.leyenda{
+    font-style: italic;
+}
+.boton{
+    position: relative;
+    text-align: center;
+}

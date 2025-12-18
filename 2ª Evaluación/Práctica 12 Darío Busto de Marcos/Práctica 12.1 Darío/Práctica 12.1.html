@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="stylesheet" href="Style.css">
+        <title>Práctica 12.1</title>       
+    </head>
+    <body>
+        <form name="Datos personales" action="mailto:daribustodemarcos@gmail.com">
+        <h2>Recogida de información</h2>
+        <fieldset>
+            <legend>Datos personales</legend>
+            Nombre <input type="text" autofocus><br />
+            <br />Dirección <input type="text" size="30px"><br />
+            <br />Teléfono <input type="text" size="10px"><br />
+        </fieldset>
+            <fieldset class="general">
+            <legend>Deportes: Fútbol</legend>          
+            <div class="equipo">
+                <span class="leyenda">Elige un equipo:</span><br /> 
+                <br /><select>
+                    <br /><option value="Barça">FC.Barcelona</option>
+                    <br /><option value="Madrid">R.Madrid</option>
+                    <br /><option value="Athletic">Real zaragoza</option>
+                </select>
+            </div>
+            <div class="jugador">
+                <span class="leyenda"> Un jugador:</span><br />
+                <br /><input type="radio" value="Messi">Messi
+                <br /><input type="radio" value="Bale">Ronaldo
+                <br /><input type="radio" value="Aduriz">Falcao
+            </div>   
+            <div class="aficiones">
+                <span class="leyenda">Otras aficiones:</span><br />
+                <br /><input type="checkbox" value="estudiar lenguaje">Música<br />
+                <input type="checkbox" value="estudiar bases">Lectura<br />
+                <input type="checkbox" value="aburrirse">VideoJuegos
+            </div>
+        </fieldset>
+    <div class="boton">
+        <input type="submit" value="Confirmar">
+        <input type="reset" value="Anular">
+    </div>
+    </form>
+    </body>
+</html>
