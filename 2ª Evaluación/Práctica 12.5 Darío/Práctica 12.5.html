@@ -1,57 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <link rel="stylesheet" href="Style.css">
-        <title>Práctica 12.5</title>    
-        <script language="JavaScript">
-            function enfocado(id_objeto) {
-            document.getElementById(id_objeto).style.backgroundColor = "yellow";
-            document.getElementById(id_objeto).style.border = "2px solid red";
-        }
-        function desenfocado(id_objeto) {
-            document.getElementById(id_objeto).style.backgroundColor = "yellow";
-            document.getElementById(id_objeto).style.border = "2px solid black";
-        }  
-        </script>   
-    </head>
-    <body>
-        <form name="Datos personales" action="mailto:daribustodemarcos@gmail.com">
+
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <title>Práctica 12.5</title>
+    <script src="Funciones.js"></script>
+</head>
+
+<body>
+    <form name="Datos personales" action="mailto:daribustodemarcos@gmail.com" onsubmit="alerta_envio()" onreset="alerta_reset()">
         <h2 class="cabecera">Recogida de información</h2>
         <fieldset>
             <legend>Datos personales</legend>
-            Nombre <input type="text" onfocus="JavaScript:enfocado(this.id);" onblur="JavaScript:desenfocado(this.id);" value="Nombre empresa" autofocus><br />
-            <br />Dirección <input type="text" onfocus="JavaScript:enfocado(this.id);" onblur="JavaScript:desenfocado(this.id);" value="Dirección particular"size="30px"><br />
-            <br />Teléfono <input type="text" onfocus="JavaScript:enfocado(this.id);" onblur="JavaScript:desenfocado(this.id);" value="Móvil" size="10px"><br />
+            Nombre <input type="text" id="nombre" onfocus="rojo(this.id)" onblur="normal(this.id)"
+                autofocus><br />
+            <br />Dirección <input type="text" id="direccion" onfocus="rojo(this.id)" onblur="normal(this.id)"
+                size="30px"><br />
+            <br />Teléfono <input type="text" id="telefono" onfocus="rojo(this.id)" onblur="normal(this.id)"
+                size="10px"><br />
         </fieldset>
-            <fieldset class="general">
-            <legend>Deportes: Fútbol</legend>          
-            <div class="equipo">
-                <span class="leyenda">Elige un equipo:</span><br /> 
+        <fieldset class="general">
+            <legend>Deportes: Fútbol</legend>
+            <div class="equipo" >
+                <span class="leyenda">Elige un equipo:</span><br />
                 <br /><select>
-                    <br /><option value="Barça">FC.Barcelona</option>
-                    <br /><option value="Madrid">R.Madrid</option>
-                    <br /><option value="Athletic">Real zaragoza</option>
+                    <br />
+                    <option value="Barça">FC.Barcelona</option>
+                    <br />
+                    <option value="Madrid">R.Madrid</option>
+                    <br />
+                    <option value="Athletic">Real zaragoza</option>
                 </select>
             </div>
-            <div class="jugador">
+            <div class="jugador" id="jugador" onmouseover="oscurecer(this.id)" onmouseout="aclarar(this.id)">
                 <span class="leyenda"> Un jugador:</span><br />
                 <br /><input type="radio" value="Messi">Messi
-                <br /><input type="radio" value="Bale">Ronaldo
-                <br /><input type="radio" value="Aduriz">Falcao
-            </div>   
-            <div class="aficiones">
+                <br /><input type="radio" value="Ronaldo">Ronaldo
+                <br /><input type="radio"  value="Falcao">Falcao
+            </div>
+            <div class="aficiones" id="aficiones" onmouseover="oscurecer(this.id)" onmouseout="aclarar(this.id)">
                 <span class="leyenda">Otras aficiones:</span><br />
                 <br /><input type="checkbox" value="estudiar lenguaje">Música<br />
                 <input type="checkbox" value="estudiar bases">Lectura<br />
                 <input type="checkbox" value="aburrirse">VideoJuegos
             </div>
         </fieldset>
-    <div class="boton1">
-        <input class="gris" type="submit" value="Confirmar">      
-    </div>
-    <div class="boton">
-        <input class="gris"type="reset" value="Anular">
-    </div>
+        <div class="boton1">
+            <input class="gris" type="submit" value="Confirmar">
+        </div>
+        <div class="boton">
+            <input class="gris" type="reset" value="Anular">
+        </div>
+        <div class="boton">
+            <input class="gris" type="button" onclick="fecha()" value="Mostrar fecha">
+        </div>
     </form>
-    </body>
+</body>
+
 </html>

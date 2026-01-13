@@ -18,6 +18,9 @@ fieldset{
 textarea{
     background-color: yellow ;
 }
+input{
+    background-color: yellow;
+}
 .general{
     position:relative;
     height:200px;
@@ -56,12 +59,13 @@ textarea{
     position: relative;
     text-align: center;
     display: inline-block;
-    left: 40%;
+    left: 30%;
 }
 .boton{
     position: relative;
     text-align: center;
     display: inline-block;
-    left: 40%;
+    left: 30%;
     margin-left: 20px;
 }
+
