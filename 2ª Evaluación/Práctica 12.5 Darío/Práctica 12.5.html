@@ -4,15 +4,14 @@
         <link rel="stylesheet" href="Style.css">
         <title>Práctica 12.5</title>    
         <script language="JavaScript">
-            function borde(objeto, color){
-                objeto.style.border = "red solid 2px";
-                objeto.style.backgroundColor = "yellow"
-                
-            }
-            function desenfocado(objeto) {
-            objeto.style.border = "inherit";
-            objeto.style.backgroundColor = "yellow"
-            }   
+            function enfocado(id_objeto) {
+            document.getElementById(id_objeto).style.backgroundColor = "yellow";
+            document.getElementById(id_objeto).style.border = "2px solid red";
+        }
+        function desenfocado(id_objeto) {
+            document.getElementById(id_objeto).style.backgroundColor = "yellow";
+            document.getElementById(id_objeto).style.border = "2px solid black";
+        }  
         </script>   
     </head>
     <body>
@@ -20,9 +19,9 @@
         <h2 class="cabecera">Recogida de información</h2>
         <fieldset>
             <legend>Datos personales</legend>
-            Nombre <input type="text" onfocus="JavaScript:borde(this,'red');" onblur="JavaScript:desenfocado(this);" value="Nombre empresa" autofocus><br />
-            <br />Dirección <input type="text" onfocus="JavaScript:borde(this,'red');" onblur="JavaScript:desenfocado(this);" value="Dirección particular"size="30px"><br />
-            <br />Teléfono <input type="text" onfocus="JavaScript:borde(this,'red');" onblur="JavaScript:desenfocado(this);" value="Móvil" size="10px"><br />
+            Nombre <input type="text" onfocus="JavaScript:enfocado(this.id);" onblur="JavaScript:desenfocado(this.id);" value="Nombre empresa" autofocus><br />
+            <br />Dirección <input type="text" onfocus="JavaScript:enfocado(this.id);" onblur="JavaScript:desenfocado(this.id);" value="Dirección particular"size="30px"><br />
+            <br />Teléfono <input type="text" onfocus="JavaScript:enfocado(this.id);" onblur="JavaScript:desenfocado(this.id);" value="Móvil" size="10px"><br />
         </fieldset>
             <fieldset class="general">
             <legend>Deportes: Fútbol</legend>          
