@@ -1,0 +1,53 @@
+.coches{
+    display: inline-block;
+    height: 225px;
+    width: 900px;
+    position: relative;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    opacity: 50%;
+    border: 5px rgb(97,43,6) double;
+}
+.coches img onmouseover{
+    display: inline-block;
+    height: 225px;
+    width: 900px;
+    position: relative;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    opacity: 100%;
+    border: 5px rgb(97,43,6) double;
+}
+.coches img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+h1{
+    text-align: center;
+    font: size 30px;
+    margin-top: 50px;
+    color: rgb(251,239,180);
+}
+.titulo{
+    text-align:center;
+    text-justify: center;
+    display: flex;
+    justify-content:center;
+    margin-left:37%;
+    margin-top:30px;
+    border: 5px rgb(248,193,191) double;
+    background-color: rgb(194,224,188);
+    width: 300px;
+}
+body {
+    background-color: rgb(179,229,255);
+}
