@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <biblioteca>
-    <libro recomendado="No">
+    <libro>
         <titulo>El Quijote</titulo>
         <autor>
             <nombre>Miguel</nombre>
@@ -16,7 +16,7 @@
         </fecha_compra>
     </libro>
 
-    <libro recomendado="No">
+    <libro>
         <titulo>Arde parís</titulo>
         <autores>
             <autor>
@@ -35,38 +35,6 @@
             <dia>12</dia>
             <mes>10</mes> 
             <año>2012</año>
-        </fecha_compra>
-    </libro>
-
-    <libro recomendado="Si">
-        <titulo>Percy Jackson y el ladroón del rayo</titulo>
-        <autor>
-            <nombre>Rick</nombre>
-            <apellidos>Riordan</apellidos> 
-        </autor>
-        <año_publi>2005</año_publi>
-        <editorial>salamandra</editorial>
-        <ISBN>9788498386264</ISBN>
-        <fecha_compra>
-            <dia>20</dia>
-            <mes>12</mes> 
-            <año>2020</año>
-        </fecha_compra>
-    </libro>
-
-    <libro recomendado="Si">
-        <titulo>Spiderman:Toda una vida</titulo>
-        <autor>
-            <nombre>Mark</nombre>
-            <apellidos>Bagley</apellidos>
-        </autor>
-        <año_publi>2019</año_publi>
-        <editorial>panini</editorial>
-        <ISBN>9788413348988</ISBN>
-        <fecha_compra>
-            <dia>17</dia>
-            <mes>01</mes> 
-            <año>2022</año>
         </fecha_compra>
     </libro>
 </biblioteca>

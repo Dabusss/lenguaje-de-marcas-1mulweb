@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <biblioteca>
-    <libro recomendado="No">
+    <libro>
         <titulo>El Quijote</titulo>
-        <autor pais="España">
+        <autor>
             <nombre>Miguel</nombre>
             <apellidos>de Cervantes</apellidos>
         </autor>
@@ -16,14 +16,14 @@
         </fecha_compra>
     </libro>
 
-    <libro recomendado="No">
+    <libro>
         <titulo>Arde parís</titulo>
         <autores>
-            <autor pais="Francia">
+            <autor>
                 <nombre>Dominique</nombre>
                 <apellidos>Lapierre</apellidos>
             </autor>
-            <autor pais="Francia">
+            <autor>
                 <nombre>Larry</nombre>
                 <apellidos>Collins</apellidos>
             </autor>
@@ -38,9 +38,9 @@
         </fecha_compra>
     </libro>
 
-    <libro recomendado="Si">
+    <libro>
         <titulo>Percy Jackson y el ladroón del rayo</titulo>
-        <autor pais="Estados Unidos">
+        <autor>
             <nombre>Rick</nombre>
             <apellidos>Riordan</apellidos> 
         </autor>
@@ -54,9 +54,9 @@
         </fecha_compra>
     </libro>
 
-    <libro recomendado="Si">
+    <libro>
         <titulo>Spiderman:Toda una vida</titulo>
-        <autor pais="Estados Unidos">
+        <autor>
             <nombre>Mark</nombre>
             <apellidos>Bagley</apellidos>
         </autor>
