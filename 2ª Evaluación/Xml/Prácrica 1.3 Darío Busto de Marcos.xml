@@ -2,7 +2,7 @@
 <biblioteca>
     <libro recomendado="No">
         <titulo>El Quijote</titulo>
-        <autor>
+        <autor pais="España">
             <nombre>Miguel</nombre>
             <apellidos>de Cervantes</apellidos>
         </autor>
@@ -19,11 +19,11 @@
     <libro recomendado="No">
         <titulo>Arde parís</titulo>
         <autores>
-            <autor>
+            <autor pais="Francia">
                 <nombre>Dominique</nombre>
                 <apellidos>Lapierre</apellidos>
             </autor>
-            <autor>
+            <autor pais="Francia">
                 <nombre>Larry</nombre>
                 <apellidos>Collins</apellidos>
             </autor>
@@ -40,7 +40,7 @@
 
     <libro recomendado="Si">
         <titulo>Percy Jackson y el ladroón del rayo</titulo>
-        <autor>
+        <autor pais="Estados Unidos">
             <nombre>Rick</nombre>
             <apellidos>Riordan</apellidos> 
         </autor>
@@ -56,7 +56,7 @@
 
     <libro recomendado="Si">
         <titulo>Spiderman:Toda una vida</titulo>
-        <autor>
+        <autor pais="Estados Unidos">
             <nombre>Mark</nombre>
             <apellidos>Bagley</apellidos>
         </autor>
