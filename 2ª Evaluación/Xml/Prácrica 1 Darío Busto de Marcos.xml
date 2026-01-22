@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <libro>
+        <titulo>El Quijote</titulo>
+        <autor>Cervantes</autor>
+        <año_publi>2012</año_publi>
+        <editorial>Planeta</editorial>
+        <ISBN>9788412345</ISBN>
+    </libro>
+
+    <libro>
+        <titulo>Arde parís</titulo>
+        <autor>Dominique Lapierre</autor>
+        <autor>Larry Collins</autor>
+        <año_publi>1975</año_publi>
+        <editorial>Alfaguara</editorial>
+        <ISBN>97884010101</ISBN>
+        <fecha_compra>12 10 2012</fecha_compra>
+    </libro>
+</biblioteca>
