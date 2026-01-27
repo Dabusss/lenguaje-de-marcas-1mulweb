@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<biblioteca>
-    <libro>
-        <titulo>El Quijote</titulo>
-        <autor>
-            <nombre>Miguel</nombre>
-            <apellidos>de Cervantes</apellidos>
-        </autor>
-        <año_publi>2012</año_publi>
-        <editorial>Planeta</editorial>
-        <ISBN>9788412345</ISBN>
-        <fecha_compra>
-            <dia>4</dia>
-            <mes>4</mes> 
-            <año>2021</año>
-        </fecha_compra>
-    </libro>
-
+<!DOCTYPE libro SYSTEM "Practica2.2.dtd">
     <libro>
         <titulo>Arde parís</titulo>
         <autores>
-            <autor>
-                <nombre>Dominique</nombre>
-                <apellidos>Lapierre</apellidos>
-            </autor>
             <autor>
                 <nombre>Larry</nombre>
                 <apellidos>Collins</apellidos>
@@ -37,4 +17,3 @@
             <año>2012</año>
         </fecha_compra>
     </libro>
-</biblioteca>

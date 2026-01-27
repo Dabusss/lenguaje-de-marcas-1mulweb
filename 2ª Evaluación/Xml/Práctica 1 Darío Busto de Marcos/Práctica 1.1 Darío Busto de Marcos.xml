@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<biblioteca>
+<!DOCTYPE libro SYSTEM "Practica2.1.dtd">
     <libro>
         <titulo>El Quijote</titulo>
         <autor>Cervantes</autor>
@@ -7,4 +7,3 @@
         <editorial>Planeta</editorial>
         <ISBN>9788412345</ISBN>
     </libro>
-</biblioteca>

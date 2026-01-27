@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT libro (titulo, autores, año_publi, editorial, ISBN, fecha_compra)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autores (autor+)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT año_publi (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
